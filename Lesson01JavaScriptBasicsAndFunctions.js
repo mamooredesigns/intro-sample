@@ -19,6 +19,7 @@ Click the Pencil icon on the top right corner of this code file to edit this doc
 
 //PUT YOUR CODE HERE
 
+const firstName = "Mary";
 
 console.log("My first name is: ", firstName);
 console.log("My last name is: ", lastName);
