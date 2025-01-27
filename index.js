@@ -25,12 +25,11 @@ foot.appendChild(copyright);
 
 
 const skills = ["Python", "JavaScript", "CLass Coordinating", "HTML", "CSS"];
-const skillsSection = document.querySelector("#skills-box");
+const skillsSection = document.querySelector(".bullets");
 
 for (let i = 0; i < skills.length; i++) {
     let skillBubble = document.createElement('li');
     console.log(skillBubble);
-    skillBubble.classList.add("skill-item");
     skillsSection.appendChild(skillBubble);
     skillBubble.innerHTML = skills[i];
 };
