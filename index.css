@@ -56,18 +56,6 @@ h1 {
     margin-bottom: 10%;
 }
 
-/* #about {
-    padding: 1rem;
-    margin-top: 15%;
-    margin-top: 15%;
-} */
-
-
-#about > img {
-    max-width: 70%;
-    object-fit: cover;
-}
-
 #about > div {
     width: 80%;
     text-align: left;
@@ -77,28 +65,7 @@ h1 {
     margin-left: 0;
 }
 
-#rooster-pic {
-    border-style: double;
-    border-width: .5em;
-    border-color: lightblue;
-    border-radius: 30%;
-    padding: 1rem;
-    margin: .65rem;
-    scroll-margin-top: 15em;
-
-    /*width: 40%;
-    margin: 10px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 32px; */
-}
-
 .heading {
-    /*color: whitesmoke;
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: lightblue;
     font-size: 1rem;
@@ -106,7 +73,7 @@ h1 {
     font-weight: bold;
 }
 
-#experience, #skills, #projects, #message-form-section, #skills-2 {
+#experience, #skills, #projects, #message-form-section {
     padding: 1rem;
     margin-bottom: 10%;
     scroll-margin-top: 5rem;
@@ -144,7 +111,7 @@ h1 {
 }
 
 .skill-item {
-    background-color: rgb(38, 124, 4);
+    background-color: darkgray;
     border-radius: 30%;
     text-align: center;
     padding: .65rem;
@@ -239,12 +206,10 @@ h1 {
 
     h1 {
         font-size: 3rem;
-        text-shadow: #FC0 1rem 0 1rem;
     }
 
     .heading {
         font-size: 2rem;
-        text-shadow: #FC0 .5rem 0 .5rem;
     }
 
     .ex-item {
@@ -258,7 +223,7 @@ h1 {
         border-bottom-right-radius: 25%;
         }
 
-    /* #about, #experience, #skills, #skills-2 #projects, #connect, #message-form-section, #message-section {
+    /* #about, #experience, #skills, #projects, #connect, #message-form-section, #message-section {
         max-width: 80%;
     } */
 
@@ -276,10 +241,6 @@ h1 {
     
     #about > div {
         width: 45%;
-    }
-
-    #rooster-pic {
-        border-width: 1em;
     }
 
     .ex-box {
