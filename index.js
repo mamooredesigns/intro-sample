@@ -68,7 +68,7 @@ fetch("https://api.github.com/users/mamooredesigns/repos")
 //message section
 
 
-let messageForm = document.querySelector("[name='haiku']");
+let messageForm = document.querySelector("[name='connectWithUsers']");
 let messageSection = document.getElementById("message-section");
 let messageList = messageSection.querySelector("ul");
 messageSection.hidden = true;
