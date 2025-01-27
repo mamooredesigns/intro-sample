@@ -28,7 +28,7 @@ const skills = ["Python", "JavaScript", "CLass Coordinating", "HTML", "CSS"];
 const skillsSection = document.querySelector("#skills-box");
 
 for (let i = 0; i < skills.length; i++) {
-    let skillBubble = document.createElement('ul');
+    let skillBubble = document.createElement('li');
     skillBubble.classList.add("skill-item");
     skillsSection.appendChild(skillBubble);
     skillBubble.innerHTML = skills[i];
