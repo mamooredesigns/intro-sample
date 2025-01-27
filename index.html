@@ -1,16 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code the Dream - Intro to Programming</title>
-</head>
-<body>
-    <h2>Remember to "Inspect" this page in order to see your console logs!</h2>
+<html lang="en-US">
+    <head>
+        <title>Mary Alice Moore</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+    </head>
+    <body>
 
-    <p>If you've completed the questions correctly, you should see all of your console.log outputs in the "Console" section of this browser tab.  Remember to reach out to mentors or you Cohort Leader if you have questions or need any help getting started!</p>
+        <nav id="navigation">
+            <a class="nav-link" href="#title">About</a>
+            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#connect">Say Hello</a>
+        </nav>
+        <h1 id="title">Mary Alice Moore</h1>
+
+
+
+        <section id="about">
+            <div>
+                <h2 class="heading"><u>_About_</u></h2>
+                <div id="about-para">
+                    <p>Currently coordinating Code The Dream's classes.</p>
+                </div>
+                
+            </div>
+        </section>
+
+
+
+        <section id="experience">
+            <h2 class="heading"><u>_Experience_</u></h2>
+            <div class="ex-box">
+                <div class="ex-item">
+                    <h3>Coordinating</h3>
+                    <ul class="bullets">
+                        <li>Class Coordinator</li>
+                        <li>Other things</li>
+                    </ul>
+                </div>
+                <div class="ex-item">
+                    <h3>CLasses</h3>
+                    <ul class="bullets">
+                        <li>Took some</li>
+                        <li>and other things</li>
+                    </ul>
+                </div>
+                
+        </section>
+
+
+        <section id="skills">
+            <div class="skills-box">
+                <div class="skill-item">
+                    <ul class="bullets">
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="projects">
+            <h2 class="heading"><u>_Projects_</u></h2>
+            <div class="project-box">
+                <div class="project-item" id="projects-box">
+                    <ul class="bullets">
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="connect">
+            <h2 class="heading"><u>_Connect_</u></h2>
+            <div class="conn-links">
+                <a class="link" href="mailto:placeholder@gmail.com"> <img class="icon" src="images/email-icon.png" alt="email icon"> </a>
+                <a class="link" href="https://github.com/mamooredesigns"> <img class="icon" src="images/git-icon.png" alt="GitHub icon"> </a>
+                <img class="icon" src="images/linkedin-icon.png" alt="LinkedIn icon">
+            </div>
+        </section>
+
+
+
+        <section id="message-form-section">
+            <h2 class="heading"><u>_Send Me a Haiku_</u></h2>
+            <form name="connectWithUsers" class="message-form">
+                <label for="usersName">Your Name:<br></label>
+                <input type="text" id="usersName" required="true"
+                /><br />
+                <label for="usersEmail">Your Email:<br></label>
+                <input type="email" id="usersEmail" required="true"
+                /><br />
+                <label for="usersMessage">Write Your Message Here:<br></label>
+                <textarea name="usersMessage" id="usersMessage" required="true"
+                ></textarea>
+                <br />
+                <button type="submit" value="submit" name="submit" class="submit-button">Submit</button>
+            </form>
+        </section>
+
+
+
+        <section id="message-section">
+            <h2 class="heading">Haikus</h2>
+            <ul id="messages"></ul>
+        </section>
+
+
+
+        <script src="js/index.js">
+
+        </script>
+
+
     
-<script src="Lesson01JavaScriptBasicsAndFunctions.js"></script>
-  
-</body>
+    </body>
 </html>
