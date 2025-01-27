@@ -21,11 +21,11 @@ copyright.innerHTML = "© Mary Alice Moore " + thisYear;
 foot.appendChild(copyright);
 
 
-//skills section and list, function that creates a bulleted list
+//skills section
 
 
 const skills = ["Python", "JavaScript", "CLass Coordinating", "HTML", "CSS"];
-const skillsSection = document.querySelector(".bullets");
+const skillsSection = document.querySelector(".skills");
 
 for (let i = 0; i < skills.length; i++) {
     let skillBubble = document.createElement('li');
