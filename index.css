@@ -36,7 +36,7 @@ body {
     text-decoration: underline;
 }
 
-/*************************************About, Pic, Title*/
+/*************************************About, Title*/
 
 h1 {
     text-align: center;
@@ -91,6 +91,7 @@ h1 {
 
 .ex-item {
     background-color: lightgray;
+    color: black;
     text-align: center;
     border-radius: 20%;
     padding: .65rem;
