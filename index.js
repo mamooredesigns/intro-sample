@@ -72,3 +72,38 @@ let messageForm = document.querySelector("[name='connectWithUsers']");
 let messageSection = document.getElementById("message-section");
 let messageList = messageSection.querySelector("ul");
 messageSection.hidden = true;
+
+
+//Count messages
+
+
+let idCounter = 0;
+
+function makeID() {
+    return 'entry' + idCounter++;
+}
+
+let entryByID = {};
+
+
+//submit button 
+
+
+messageForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    let name = event.target.usersName.value;
+    let email = event.target.usersEmail.value;
+    let message = event.target.usersMessage.value;
+
+    let uid = makeID();
+    let newMessage = document.createElement('li');
+    newMessage.classList.add('message-item');
+    newMessage.innerHTML = `<a href="mailto:${email}">${name}</a><span> wrote: <br> ${  message  }<br></span>`;
+    newMessage.setAttribute('id', uid);
+
+    entryByID[uid] = { usersName: name, usersEmail: email, usersMessage: message };
+
+    messageList.appendChild(newMessage);
+    messageForm.reset();
+    messageSection.hidden = false;
+});
