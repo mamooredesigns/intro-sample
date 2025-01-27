@@ -27,7 +27,7 @@ body {
 }
 
 .nav-link {
-    color: lightblue;
+    color: blue;
     text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h1 {
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: lightblue;
+    color: navy;
     margin-top: 8%;
 }
 
@@ -67,7 +67,7 @@ h1 {
 
 .heading {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: lightblue;
+    color: navy;
     font-size: 1rem;
     text-align: center;
     font-weight: bold;
@@ -142,7 +142,7 @@ h1 {
 }
 
 .proj-link {
-    color: lightblue;
+    color: navy;
 }
 
 .proj-link:hover {
