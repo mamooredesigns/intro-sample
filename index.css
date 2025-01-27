@@ -133,7 +133,7 @@ h1 {
 }
 
 .project-item {
-    background-color: chocolate;
+    background-color: darkgray;
     border-radius: 30%;
     text-align: center;
     padding: 1em;
@@ -141,7 +141,7 @@ h1 {
 }
 
 .proj-link {
-    color: whitesmoke;
+    color: lightblue;
 }
 
 .proj-link:hover {
