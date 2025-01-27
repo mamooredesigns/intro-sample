@@ -157,7 +157,8 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: darkslategray;
+    background-color: lightgray;
+    color: black;
     padding: 2.5em;
     
 }
