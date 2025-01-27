@@ -93,7 +93,7 @@ h1 {
     background-color: lightgray;
     color: black;
     text-align: center;
-    border-radius: 20%;
+    
     padding: .65rem;
 }
 
@@ -113,7 +113,7 @@ h1 {
 
 .skill-item {
     background-color: darkgray;
-    border-radius: 30%;
+    
     text-align: center;
     padding: .65rem;
     margin: .65rem;
@@ -135,7 +135,7 @@ h1 {
 
 .project-item {
     background-color: darkgray;
-    border-radius: 30%;
+    
     text-align: center;
     padding: 1em;
     margin:0;
@@ -159,8 +159,7 @@ h1 {
     justify-content: center;
     background-color: darkslategray;
     padding: 2.5em;
-    /* margin: 5em; */
-    border-radius: 30%;
+    
 }
 
 .conn-links {
@@ -212,21 +211,6 @@ h1 {
     .heading {
         font-size: 2rem;
     }
-
-    .ex-item {
-        border-radius: 30%;
-    }
-
-    #connect {
-        border-top-right-radius: 80%;
-        border-bottom-left-radius: 80%;
-        border-top-left-radius: 25%;
-        border-bottom-right-radius: 25%;
-        }
-
-    /* #about, #experience, #skills, #projects, #connect, #message-form-section, #message-section {
-        max-width: 80%;
-    } */
 
     #about {
         flex-direction: row;
