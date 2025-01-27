@@ -22,14 +22,12 @@ body {
     border-bottom-style: double;
     border-width: 3px;
 
-    background-color: black;
-    border-color: hotpink;
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%;
+    background-color: darkgray;
+    border-color: lightblue;
 }
 
 .nav-link {
-    color: hotpink;
+    color: lightblue;
     text-decoration: none;
 }
 
@@ -43,9 +41,8 @@ body {
 h1 {
     text-align: center;
     font-size: 1.5rem;
-    font-family: "Playwrite HR Lijeva", cursive;
-    color: greenyellow;
-    text-shadow: #FC0 .5rem 0 .5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightblue;
     margin-top: 8%;
 }
 
@@ -83,7 +80,7 @@ h1 {
 #rooster-pic {
     border-style: double;
     border-width: .5em;
-    border-color: burlywood;
+    border-color: lightblue;
     border-radius: 30%;
     padding: 1rem;
     margin: .65rem;
@@ -102,9 +99,8 @@ h1 {
     font-size: 32px;
     font-weight: bold;
     text-align: center;*/
-    font-family: "Playwrite HR Lijeva", cursive;
-    color: greenyellow;
-    text-shadow: #FC0 .25rem 0 .25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightblue;
     font-size: 1rem;
     text-align: center;
     font-weight: bold;
